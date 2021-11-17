@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,15 +11,36 @@
 		BFD22FDD2745108800D3FD4F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFD22FDC2745108800D3FD4F /* ContentView.swift */; };
 		BFD22FDF2745109600D3FD4F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD22FDE2745109600D3FD4F /* Assets.xcassets */; };
 		BFD22FE22745109600D3FD4F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFD22FE12745109600D3FD4F /* Preview Assets.xcassets */; };
+		BFFC9CA727451236007493C6 /* UserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC9CA627451236007493C6 /* UserModel.swift */; };
+		BFFC9CAA274512B8007493C6 /* DB_Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC9CA9274512B8007493C6 /* DB_Manager.swift */; };
+		BFFC9CAD2745136A007493C6 /* AddUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC9CAC2745136A007493C6 /* AddUserView.swift */; };
+		BFFC9CBC2745284C007493C6 /* EditUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC9CBB2745284C007493C6 /* EditUserView.swift */; };
+		BFFC9CC427454BEA007493C6 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC9CC327454BEA007493C6 /* ChartView.swift */; };
+		BFFC9CC927455464007493C6 /* SwiftUICharts in Frameworks */ = {isa = PBXBuildFile; productRef = BFFC9CC827455464007493C6 /* SwiftUICharts */; };
+		BFFC9CCC274557D0007493C6 /* SQLiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFC9CCB274557D0007493C6 /* SQLiteView.swift */; };
+		BFFC9CD327456FC5007493C6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-11-17 at 18.11.48.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFC9CD127456FC4007493C6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-11-17 at 18.11.48.png */; };
+		BFFC9CD427456FC5007493C6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-11-17 at 18.12.05.png in Resources */ = {isa = PBXBuildFile; fileRef = BFFC9CD227456FC5007493C6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-11-17 at 18.12.05.png */; };
+		EBF2B9A79500D48864545FDD /* Pods_SQLiteSwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 516157889307F0C58D2840D2 /* Pods_SQLiteSwiftUI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		516157889307F0C58D2840D2 /* Pods_SQLiteSwiftUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SQLiteSwiftUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		764A8C19EFD7D367BF5BD585 /* Pods-SQLiteSwiftUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLiteSwiftUI.release.xcconfig"; path = "Target Support Files/Pods-SQLiteSwiftUI/Pods-SQLiteSwiftUI.release.xcconfig"; sourceTree = "<group>"; };
+		B3BA2EAE8630A108D5C61E69 /* Pods-SQLiteSwiftUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQLiteSwiftUI.debug.xcconfig"; path = "Target Support Files/Pods-SQLiteSwiftUI/Pods-SQLiteSwiftUI.debug.xcconfig"; sourceTree = "<group>"; };
 		BFD22FD72745108800D3FD4F /* SQLiteSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQLiteSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFD22FDA2745108800D3FD4F /* SQLiteSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteSwiftUIApp.swift; sourceTree = "<group>"; };
 		BFD22FDC2745108800D3FD4F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BFD22FDE2745109600D3FD4F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFD22FE12745109600D3FD4F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFD22FE32745109600D3FD4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFFC9CA627451236007493C6 /* UserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserModel.swift; sourceTree = "<group>"; };
+		BFFC9CA9274512B8007493C6 /* DB_Manager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB_Manager.swift; sourceTree = "<group>"; };
+		BFFC9CAC2745136A007493C6 /* AddUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserView.swift; sourceTree = "<group>"; };
+		BFFC9CBB2745284C007493C6 /* EditUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditUserView.swift; sourceTree = "<group>"; };
+		BFFC9CC327454BEA007493C6 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		BFFC9CCB274557D0007493C6 /* SQLiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SQLiteView.swift; sourceTree = "<group>"; };
+		BFFC9CD127456FC4007493C6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-11-17 at 18.11.48.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 12 Pro Max - 2021-11-17 at 18.11.48.png"; sourceTree = "<group>"; };
+		BFFC9CD227456FC5007493C6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-11-17 at 18.12.05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 12 Pro Max - 2021-11-17 at 18.12.05.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +48,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EBF2B9A79500D48864545FDD /* Pods_SQLiteSwiftUI.framework in Frameworks */,
+				BFFC9CC927455464007493C6 /* SwiftUICharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2DDD3DC098177C90DCE844AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				516157889307F0C58D2840D2 /* Pods_SQLiteSwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F96CBE52F968C284375301D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B3BA2EAE8630A108D5C61E69 /* Pods-SQLiteSwiftUI.debug.xcconfig */,
+				764A8C19EFD7D367BF5BD585 /* Pods-SQLiteSwiftUI.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		BFD22FCE2745108800D3FD4F = {
 			isa = PBXGroup;
 			children = (
 				BFD22FD92745108800D3FD4F /* SQLiteSwiftUI */,
 				BFD22FD82745108800D3FD4F /* Products */,
+				7F96CBE52F968C284375301D /* Pods */,
+				2DDD3DC098177C90DCE844AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,8 +94,15 @@
 		BFD22FD92745108800D3FD4F /* SQLiteSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				BFFC9CD627456FD4007493C6 /* images */,
+				BFFC9CA9274512B8007493C6 /* DB_Manager.swift */,
+				BFFC9CA627451236007493C6 /* UserModel.swift */,
 				BFD22FDA2745108800D3FD4F /* SQLiteSwiftUIApp.swift */,
 				BFD22FDC2745108800D3FD4F /* ContentView.swift */,
+				BFFC9CCB274557D0007493C6 /* SQLiteView.swift */,
+				BFFC9CAC2745136A007493C6 /* AddUserView.swift */,
+				BFFC9CBB2745284C007493C6 /* EditUserView.swift */,
+				BFFC9CC327454BEA007493C6 /* ChartView.swift */,
 				BFD22FDE2745109600D3FD4F /* Assets.xcassets */,
 				BFD22FE32745109600D3FD4F /* Info.plist */,
 				BFD22FE02745109600D3FD4F /* Preview Content */,
@@ -69,6 +118,15 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		BFFC9CD627456FD4007493C6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				BFFC9CD227456FC5007493C6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-11-17 at 18.12.05.png */,
+				BFFC9CD127456FC4007493C6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-11-17 at 18.11.48.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,15 +134,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BFD22FE62745109600D3FD4F /* Build configuration list for PBXNativeTarget "SQLiteSwiftUI" */;
 			buildPhases = (
+				59CBB475C1BC4CB323365ED6 /* [CP] Check Pods Manifest.lock */,
 				BFD22FD32745108800D3FD4F /* Sources */,
 				BFD22FD42745108800D3FD4F /* Frameworks */,
 				BFD22FD52745108800D3FD4F /* Resources */,
+				545C7E67242FCE7FDEE3B479 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SQLiteSwiftUI;
+			packageProductDependencies = (
+				BFFC9CC827455464007493C6 /* SwiftUICharts */,
+			);
 			productName = SQLiteSwiftUI;
 			productReference = BFD22FD72745108800D3FD4F /* SQLiteSwiftUI.app */;
 			productType = "com.apple.product-type.application";
@@ -112,6 +175,9 @@
 				Base,
 			);
 			mainGroup = BFD22FCE2745108800D3FD4F;
+			packageReferences = (
+				BFFC9CC727455464007493C6 /* XCRemoteSwiftPackageReference "ChartView" */,
+			);
 			productRefGroup = BFD22FD82745108800D3FD4F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,19 +193,69 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFD22FE22745109600D3FD4F /* Preview Assets.xcassets in Resources */,
+				BFFC9CD427456FC5007493C6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-11-17 at 18.12.05.png in Resources */,
 				BFD22FDF2745109600D3FD4F /* Assets.xcassets in Resources */,
+				BFFC9CD327456FC5007493C6 /* Simulator Screen Shot - iPhone 12 Pro Max - 2021-11-17 at 18.11.48.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		545C7E67242FCE7FDEE3B479 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLiteSwiftUI/Pods-SQLiteSwiftUI-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SQLiteSwiftUI/Pods-SQLiteSwiftUI-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SQLiteSwiftUI/Pods-SQLiteSwiftUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59CBB475C1BC4CB323365ED6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQLiteSwiftUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		BFD22FD32745108800D3FD4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFC9CCC274557D0007493C6 /* SQLiteView.swift in Sources */,
 				BFD22FDD2745108800D3FD4F /* ContentView.swift in Sources */,
+				BFFC9CA727451236007493C6 /* UserModel.swift in Sources */,
+				BFFC9CAD2745136A007493C6 /* AddUserView.swift in Sources */,
+				BFFC9CC427454BEA007493C6 /* ChartView.swift in Sources */,
+				BFFC9CBC2745284C007493C6 /* EditUserView.swift in Sources */,
 				BFD22FDB2745108800D3FD4F /* SQLiteSwiftUIApp.swift in Sources */,
+				BFFC9CAA274512B8007493C6 /* DB_Manager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +380,7 @@
 		};
 		BFD22FE72745109600D3FD4F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3BA2EAE8630A108D5C61E69 /* Pods-SQLiteSwiftUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +403,7 @@
 		};
 		BFD22FE82745109600D3FD4F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 764A8C19EFD7D367BF5BD585 /* Pods-SQLiteSwiftUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -328,6 +446,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BFFC9CC727455464007493C6 /* XCRemoteSwiftPackageReference "ChartView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppPear/ChartView";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.5;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BFFC9CC827455464007493C6 /* SwiftUICharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFFC9CC727455464007493C6 /* XCRemoteSwiftPackageReference "ChartView" */;
+			productName = SwiftUICharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BFD22FCF2745108800D3FD4F /* Project object */;
 }
